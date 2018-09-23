@@ -1,0 +1,457 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Oswald;
+}
+hr {
+  width: 15%;
+  border: 2px solid #595959;
+}
+/* styling for my navigation bar */
+
+.navigation {
+  background-color: #4dff4d;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.navigation #logo_name {
+  display: inline-block;
+}
+.navigation #logo_name h1 {
+  margin-left: 20px;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.8em;
+}
+.navigation #logo_name h1 span {
+  color: black;
+}
+.navigation ul {
+  display: fixed;
+  float: right;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.navigation ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+.navigation ul li a:hover {
+  color: white;
+}
+
+
+/* header styling */
+#header {
+  background-attachment: fixed;
+  background-image: url("https://images.unsplash.com/photo-1532592950061-606f15b31037?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=48e479a2ba522849242132f9a68d9dcb&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+#home {
+  background-color: white;
+/*   margin: 8% 30%; */
+  padding-bottom: 20px;
+  border-radius: 20px;
+/*   opacity: .5; */
+  padding: 1.5rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#home #welcome {
+  text-align: center;
+}
+#welcome h1 {
+  font-size: 4rem;
+  color: #595959;
+  font-weight: bold;
+}
+
+
+/* styling for  my buttons in my header */
+
+#buttons {
+  text-align: center;
+}
+#buttons button {
+  border: none;
+  border-radius: 15%;
+  margin-left: 20px;
+}
+#buttons button:hover {
+  border: 1px solid black;
+}
+#buttons #twitter {
+  padding: 20px 30px;
+  background-color: #1DA1F2;
+  color: white;
+  font-size: rem;
+  cursor: pointer;
+}
+#twitter i {
+  font-size: 1rem;
+}
+#buttons #facebook {
+  background-color: #3B5998 ;
+  color: white;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+#facebook i {
+  font-size: 1rem;
+}
+#buttons #github {
+  padding: 20px 30px;
+  background-color: #6e5494;
+  color: #fafafa;
+  cursor: pointer;
+  
+}
+#github i {
+  font-size: 1rem;
+}
+
+/* styling for the about me section */
+
+#about_me {
+  height: 650px;
+  width: 100%;
+  text-align: center;
+}
+#about_me div h1 {
+  margin-top: 5%;
+  font-size: 3rem;
+  color: #00cc00;
+}
+#about_me #languages {
+  text-align: center;
+  margin: 3% 20% 3% 20%;
+}
+#about_me #languages p {
+  font-size: 1.5em;
+  text-align: left;
+  color: #595959;
+  font-weight: 800;
+}
+#about_me #languages p strong {
+  color: #00cc00;
+}
+/* here goes the styling for my #box element followed with three .box elements */
+#box {
+  margin-top: 5%;
+  width: 100%;
+  padding: 0 25%;
+}
+#box .box {
+  float: left;
+  margin: 3% 90px;
+  border-right: 2px solid black;
+}
+#box .box i {
+  font-size: 5rem;
+  margin-right: 80px;
+}
+#box .css3 {
+  padding-right: 50px;
+}
+#box .javascript {
+  border: none;
+  margin-left: 30px;
+}
+.box h3 {
+  margin-right: 80px;
+  font-size: 2rem;
+}
+
+/* portfolion section with background-image  */
+#portfolio {
+  background-image: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=1189&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+}
+/* portfolio section styling */
+#portfolio #projects {
+  width: 55%;
+  height: 800px;
+  background-color: #4dff4d;
+  text-align: center;
+}
+#projects h1 {
+  padding-top: 0%;
+  font-size: 3.5rem;
+  color:  black;
+/*   mix-blend-mode: saturation; */
+}
+#projects hr {
+  width: 55%;
+  border: 2px solid white;
+  color: white;
+}
+#visual_arts, #technical, #orangeJuice, #northland {
+  display: inline-block;
+  width: 45%;
+  margin-top: 3%;
+}
+#visual_arts {
+  margin: 0 3%;
+}
+#orangeJuice {
+  margin: 0 3%;
+}
+/* styling for my contact section */
+#contact {
+  height: 780px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#contact_me {
+  height: 300px;
+  background-color: #e6e6e6;
+}
+#contact_me h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding-top: 40px;
+}
+
+
+/* styling for my contact form */
+#form {
+  height: 400px;
+  background-color: #4dff4d;
+  padding: 40px 25px;
+}
+#form input {
+  border: none;
+  border-bottom: 1px solid black;
+  color: white;
+  font-size: 30px;
+  height: 30px;
+  text-align: center;
+  width: 40%;
+  background: transparent;
+  
+}
+#form textarea {
+  border: 1px solid black;
+  background-color: #7D8186;
+  font-size: 22px;
+  width: 40%;
+}
+#form button {
+  padding: 10px 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* footer styling  */
+footer {
+  height: 80px;
+  background-color: black;
+  position: fixed-bottom;
+}
+footer div {
+  padding: 25px 25px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+/*   navigation media query */
+  .navigation {
+    position: none;
+    text-align: center;
+  }
+  .navigation #logo_name {
+    display: block;
+  }
+  .navigation #logo_name h1 {
+    font-size: 1.3em;
+  }
+  .navigation ul {
+    float: none;
+  }
+  .navigation ul li {
+    display: inline-block;
+    text-align: center;
+  }
+  .navigation ul li a {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+/*   header media query */
+  #header {
+    height: 650px;
+  }
+  #welcome h1 {
+    font-size: 2.5rem;
+  }
+  #buttons #twitter, #buttons #facebook, #buttons #github {
+    padding: 10px 10px;
+  }
+  
+/*   about me section */
+  #about_me {
+    height: 500px;
+  }
+  #about_me div h1 {
+    font-size: 2rem;
+  }
+  #about_me #languages p {
+    font-size: 1.2rem;
+    color: black;
+  }
+  #box {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    margin-left: 250px;
+    padding-left: 4%;
+  }
+  #box .box {
+    margin: 0;
+    padding: 0;
+    padding-right: 15%;
+    margin-right: 15%;
+    height: 100%;
+  }
+  #box .box i {
+    font-size: 2.5rem;
+    
+  }
+  #box .css3 {
+    width: 2%;
+  }
+  #box .html5 {
+    width: 5%;
+  }
+  #box .javascript {
+    width: 2%;
+  }
+  .box h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+/*  portfolio media query  */
+  #portfolio #projects {
+    
+  }
+  #projects h1 {
+    font-size: 3em;
+  }
+  #visual_arts, #technical, #orangeJuice, #northland {
+    width: 35%;
+   
+  }
+/*   contact section media query */
+  #contact_me h1  {
+    font-size: 3rem;
+  }
+ 
+}
+
+
+@media (max-width: 411px) {
+  /*   navigation media query */
+  .navigation {
+    position: none;
+    text-align: center;
+  }
+  .navigation #logo_name {
+    display: block;
+  }
+  .navigation #logo_name h1 {
+    font-size: 1.3em;
+  }
+  .navigation ul {
+    float: none;
+  }
+  .navigation ul li {
+    display: block;
+    text-align: center;
+  }
+  .navigation ul li a {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+/*   header media query */
+  #header {
+    height: 750px;
+  }
+  #welcome h1 {
+    font-size: 1.5rem;
+  }
+  #buttons #twitter, #buttons #facebook, #buttons #github {
+    padding: 5px 5px;
+    display: none;
+  }
+  
+/*   about me section */
+  #about_me {
+    height: 500px;
+  }
+  #about_me div h1 {
+    font-size: 2rem;
+  }
+  #about_me #languages p {
+    font-size: 1rem;
+    color: black;
+  }
+  #box {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+  }
+  #box .box {
+    display: inline-block;
+    height: 100%;
+    border: none;;
+  }
+  #box .box i {
+    font-size: 2.8rem;
+  }
+  
+  .box h3 {
+    display: none;
+}
+/*  portfolio media query  */
+  #portfolio #projects {
+    width: 100%;
+  }
+  #projects h1 {
+    font-size: 2em;
+  }
+  #visual_arts, #technical, #orangeJuice, #northland {
+    width: 35%;
+   
+  }
+/*   contact section media query */
+  #contact_me h1  {
+    font-size: 3rem;
+  }
+  
+  
+}
